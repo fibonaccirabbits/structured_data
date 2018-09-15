@@ -156,9 +156,41 @@ print(first_letters)
 - With a loop
 	- Read the files in fasta6
 	- With slicing get the name of the organisms
-	- Write an output file containg the name for all organisms
+	- Write an output file containing the names to a local directory
 
 
+---
+##### Exercise 5 (10 minutes)
+- With a loop
+	- Read the files in fasta6
+	- With slicing get the name of the organisms and the lengths of the sequence
+	- Write a csv file containing the names and length to a local directory
+
+```
+# Hints
+# using a loop create a list with this format ['name of organism', 'length of seq']
+# to get the length of a string use this syntax
+len(mystring)
+
+# to write a csv file, we will use pandas 
+# import pandas 
+import pandas as pd
+
+#create a data frame
+df = pd.DataFrame(mylist, columns=['name of organism', 'length of seq'])
+df.to_csv('mycsvfile.csv')
+
+# load your csv file and admire it for a couple of minutes :)
+mydf = pd.read_csv('mycsvfile.csv')
+print(mydf.head())
+
+```
+
+---
+##### Summary
+- We explored IO with python
+- We explored simple data structures: string and list
+- We used a loop and to built a csv file
 
 ---
 Share your thoughts: [**feedback**](https://docs.google.com/forms/d/e/1FAIpQLSf3Q05NBO8jELU_6uLeobsRcvbNUBpwPRU3OPivHoukbDZmlQ/viewform)
