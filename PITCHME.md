@@ -64,7 +64,7 @@ print(mylist)
 * Slicing and indexing
 
 ```
-# a slicing operation allows one to subset string or list
+# a slicing/indexing operation allows one to subset string or list
 # python indexing starts from 0
 
 mystring = 'Hello world'
@@ -124,8 +124,30 @@ outfile.close()
 ##### Loop + slice = magic 
 
 
+---
+A loop allows one to perform operations on a set of items (e.g., items on a list) 
 
----?image=src/bg-05.png&size=contain
+```
+# create a list
+mystring = 'Hello world, I am Groot'
+print(mystring)
+mylist = mystring.split()
+print(mylist)
+
+# With loop, print only the first letter of each item in the list
+for item in mylist:
+	print(item[0])
+
+#collecting values with loops
+first_letters = [] # an empty list
+for item in mylist:
+	first_letter = item[0]
+	firs_letters.append(first_letter)
+print(first_letters)
+
+```
+
+---
 Share your thoughts: [**feedback**](https://docs.google.com/forms/d/e/1FAIpQLSf3Q05NBO8jELU_6uLeobsRcvbNUBpwPRU3OPivHoukbDZmlQ/viewform)
 
 ---?image=src/thanks-06.png&size=contain
