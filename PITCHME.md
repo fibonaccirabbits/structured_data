@@ -150,6 +150,16 @@ print(first_letters)
 
 ```
 
+
+---
+##### Exercise 4 (10 minutes)
+- With a loop
+	- Read the files in fasta6
+	- With slicing get the name of the organisms
+	- Write an output file containg the name for all organisms
+
+
+
 ---
 Share your thoughts: [**feedback**](https://docs.google.com/forms/d/e/1FAIpQLSf3Q05NBO8jELU_6uLeobsRcvbNUBpwPRU3OPivHoukbDZmlQ/viewform)
 
