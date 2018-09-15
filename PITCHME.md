@@ -91,10 +91,8 @@ print(mystring1_to_2)
 ```
 ---
 ##### Exercise 2 (10 minutes)
-- Interactive programming is a lot of fun but documenting your codes can save a lot of time!
-- Create a file yourname_plots.py with a text editor (Vi, TextEdit, Nano, Notepad)
-- Recreate swarm, boxen, and box plots. Save them.
-- add plt.close() after each plt.save()
+- With your newly acquired slicing skill, get the name of the organisms of each fasta file in fasta6
+- the names are: A.thaliana, Rapeseed, Armoracia rusticana, Brassica rapa, and Brassica napus
 ```
 # run you code
 python yourname_plots.py
