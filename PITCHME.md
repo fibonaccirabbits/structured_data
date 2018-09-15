@@ -10,6 +10,7 @@ Hands on session
 - **Package manager:** a tool that manages packages (programs).
 
 
+---
 #### Input: opening a file in python
 
 ```
