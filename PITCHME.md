@@ -91,14 +91,26 @@ print(mystring1_to_2)
 ```
 ---
 ##### Exercise 2 (10 minutes)
-- With your newly acquired slicing skill, get the name of the organisms of each fasta file in fasta6
+- With your newly acquired slicing skill, get the name of the organisms on each fasta file in fasta6
 - the names are: A.thaliana, Rapeseed, Armoracia rusticana, Brassica rapa, and Brassica napus
-```
-# run you code
-python yourname_plots.py
-```
+
+
 ---
-##### Collaboration and sharing
+##### Output: Writing a file to local directory
+
+```
+# open an output file
+outfile = open('myoutput.txt', 'w')
+
+# get some content to write
+mycontent = 'Hello world, I am Groot'
+
+# write the content file 
+outfile.write(mycontent)
+
+# close the output file
+outfile.close()
+```
 
 ---
 So far the code and its output are at different places. Jupyter notebook integrates them so you don't have to!
