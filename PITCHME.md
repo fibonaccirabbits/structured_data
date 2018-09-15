@@ -9,39 +9,23 @@ Hands on session
 - **Object:** a combination of variables, functions, and data structures.
 - **Package manager:** a tool that manages packages (programs).
 
----
 
-#### Python and libraries
-Download and install a package manager: [Anaconda](https://www.anaconda.com/download/)
-
-
-
-On your terminal do:
-```
-pip install pandas # real nice data structures
-pip install matplotlib # plotting object
-pip install seaborn # plotting object
-```
-
----
-
-#### Visualization: a first plot
+#### Input: opening a file in python
 
 ```
-# boot up python interpreter (interactive programming)
-python
+# Open a jupyter notebook from Anaconda
+# or on your terminal do
+jupyter notebook
 
-# import libraries (modules)
-import pandas as pd 
-import matplotlib.pyplot as plt 
-import seaborn as sns 
+# define a file path
+infile = 'fasta1/cor6_6.fasta'
 
-# load the Iris dataset
-iris = sns.load_dataset('iris')
+# read the file
+content = open(infile).read()
 
-# plot the distribution of petal length
-sns.countplot(iris.species)
-plt.show()
+# visualize the file
+print(content)
+
 
 ```
 
