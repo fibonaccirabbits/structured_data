@@ -64,7 +64,8 @@ print(mylist)
 * Slicing and indexing
 
 ```
-# a slicing/indexing operation allows one to subset string or list
+# a slicing/indexing operation allows one 
+# to subset string or list
 # python indexing starts from 0
 
 mystring = 'Hello world'
@@ -168,6 +169,7 @@ print(first_letters)
 	- With slicing get the name of the organisms and the lengths of the sequence
 	- Write a csv file containing the names and length to a local directory
 
+---
 ```
 # Hints
 # using a loop create a list with this format:
@@ -184,6 +186,7 @@ df = pd.DataFrame(mylist, columns=['name of organism', 'length of seq'])
 df.to_csv('mycsvfile.csv')
 ```
 ---
+```
 # load your csv file and admire it for a couple of minutes :)
 mydf = pd.read_csv('mycsvfile.csv')
 print(mydf.head())
