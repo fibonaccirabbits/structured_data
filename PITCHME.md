@@ -125,7 +125,8 @@ outfile.close()
 
 
 ---
-- A loop allows one to perform operations on a set of items (e.g., items on a list) 
+- A loop allows one to perform operations on a set of items 
+(e.g., items on a list) 
 
 ```
 # create a list
@@ -134,7 +135,8 @@ print(mystring)
 mylist = mystring.split()
 print(mylist)
 
-# With loop, print only the first letter of each item in the list
+# With loop, print only the first letter 
+# of each item in the list
 for item in mylist:
 	print(item[0])
 ```
@@ -168,7 +170,8 @@ print(first_letters)
 
 ```
 # Hints
-# using a loop create a list with this format ['name of organism', 'length of seq']
+# using a loop create a list with this format:
+# ['name of organism', 'length of seq']
 # to get the length of a string use this syntax
 len(mystring)
 
@@ -179,7 +182,8 @@ import pandas as pd
 #create a data frame
 df = pd.DataFrame(mylist, columns=['name of organism', 'length of seq'])
 df.to_csv('mycsvfile.csv')
-
+```
+---
 # load your csv file and admire it for a couple of minutes :)
 mydf = pd.read_csv('mycsvfile.csv')
 print(mydf.head())
