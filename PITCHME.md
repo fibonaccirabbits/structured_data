@@ -125,7 +125,7 @@ outfile.close()
 
 
 ---
-A loop allows one to perform operations on a set of items (e.g., items on a list) 
+- A loop allows one to perform operations on a set of items (e.g., items on a list) 
 
 ```
 # create a list
@@ -137,7 +137,10 @@ print(mylist)
 # With loop, print only the first letter of each item in the list
 for item in mylist:
 	print(item[0])
+```
 
+---
+```
 #collecting values with loops
 first_letters = [] # an empty list
 for item in mylist:
