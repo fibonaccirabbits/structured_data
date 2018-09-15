@@ -1,5 +1,5 @@
----#?image=src/bg-05.png&size=contain
-# Data is Beauty
+---
+# Structured data
 
 Hands on session
 
