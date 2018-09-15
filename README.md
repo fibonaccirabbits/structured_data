@@ -1,4 +1,4 @@
-<img src='src/micro_vis-04.png' widht=500>
+<img src='src/bg-05.png' widht=500>
 
 # Welcome to Structured Data--a microcourse on data preparation with python
 
