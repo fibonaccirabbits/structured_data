@@ -49,9 +49,6 @@ print(content)
 * List
 
 ---
-
-* Shape
-
 ```
 # a string is enclosed by quotes: '' or ""
 mystring = 'Hello world'
@@ -59,26 +56,35 @@ print(mystring)
 
 #a list is enclosed by squearebrackets: [ ]
 mylist = ['Hello', 'world']
+print(mylist)
 
 ```
 
 ---
-* Color and style
+* Slicing and indexing
 
 ```
-#clear the background
-sns.set(style='ticks') 
-sns.swarmplot(iris.species, iris.petal_length)
-plt.show()
+# a slicing operation allows one to subset string or list
+# python indexing starts from 0
+# a slicing operation is enclosed by squere brackets: []
 
-#clear the background and uses other palette
-sns.set(style='ticks', palette='husl') 
-sns.swarmplot(iris.species, iris.petal_length)
-plt.show()
+mystring = 'Hello world'
+print(mystring)
+mystring1 = mystring[1]
+print(mystring1)
+print(mystring)
 
-#save the plot
-plt.savefig('plot_name.png')
 
+mylist = ['Hello', 'world']
+print(mylist)
+mylist1 = mylist[1]
+print(mylist1)
+
+# the start and end index is separated by a colon
+# the terminal index is exluded
+
+mystring1_to_2 = mystring[1:3]
+print(mystring1_to_2)
 ```
 
 ---
