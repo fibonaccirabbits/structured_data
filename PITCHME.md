@@ -66,7 +66,6 @@ print(mylist)
 ```
 # a slicing operation allows one to subset string or list
 # python indexing starts from 0
-# a slicing operation is enclosed by squere brackets: []
 
 mystring = 'Hello world'
 print(mystring)
@@ -74,19 +73,20 @@ mystring1 = mystring[1]
 print(mystring1)
 print(mystring)
 
-
+---
 mylist = ['Hello', 'world']
 print(mylist)
 mylist1 = mylist[1]
 print(mylist1)
 
+---
+# a slicing operation is enclosed by squere brackets: []
 # the start and end index is separated by a colon
 # the terminal index is exluded
 
 mystring1_to_2 = mystring[1:3]
 print(mystring1_to_2)
 ```
-
 ---
 ##### Exercise 2 (10 minutes)
 - Interactive programming is a lot of fun but documenting your codes can save a lot of time!
