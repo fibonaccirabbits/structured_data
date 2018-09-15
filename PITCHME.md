@@ -112,43 +112,18 @@ outfile.write(mycontent)
 outfile.close()
 ```
 
----
-So far the code and its output are at different places. Jupyter notebook integrates them so you don't have to!
-
-```
-start a jupyter notebook
-bring your code (recreate yourname_plots.py) to the notebook
-run the code with shift + enter (or by clicking the *run* button)
-
-add on top of your notebook if plot doesnt show
-%matplotlib inline
-
-download the notebook
-send it to the person sitting next to you
-```
 
 ---
 ##### Exercise 3 (10 minutes)
-This time no code examples. Use your previous experience to solve this exercise.
-- Your mission: Using the titanic dataset, figure out if money increase the chance of survival
-- Dataset: [titanic.csv](https://github.com/fibonaccirabbits/visual_python/tree/master/src)
+- Read the files in fasta6
+- With slicing get the name of the organisms
+- Write an output file containg the name for each organism
 
-```
-##Hint:
-
-#load a local dataset
-titanic = pd.read_csv('titanic.csv')
-
-#list all kinds of plots in seaborn
-print([item for item in dir(sns) if 'plot' in item])
-```
 
 ---
-##### Summary
-We explored: 
-* Turning data into a visual object (plot)
-* Making that visual object engaging and infromative via shapes and colors
-* Documenting codes and outputs for seamless collaboration and sharing
+##### Loop + slice = magic 
+
+
 
 ---?image=src/bg-05.png&size=contain
 Share your thoughts: [**feedback**](https://docs.google.com/forms/d/e/1FAIpQLSf3Q05NBO8jELU_6uLeobsRcvbNUBpwPRU3OPivHoukbDZmlQ/viewform)
