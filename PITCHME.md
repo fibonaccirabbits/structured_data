@@ -30,42 +30,36 @@ print(content)
 
 ```
 
-- Congrats! You have just created your first plot with Python.
+- Easy! You can now read files on python.
 
 ---
 ##### Exercise 1 (10 minutes)
 
 ```
 # get to know your data
-iris.info()
-
-# show available columns
-iris.columns
+# there are 6 more files in the fasta6 directory
+# open the files and look into their content
 
 ```
-- Create a plot for each column in the dataset
-- Load a new dataset: titanic 
-- Briefly describe the dataset
-- Create a plot for each column in the dataset
 
 ---
-##### Asthetic: make your plot stands out
+##### Python data structures
 
-* Shape
-* Style and color
+* String
+* List
 
 ---
 
 * Shape
 
 ```
-# plot a swarmplot
-sns.swarmplot(iris.species, iris.petal_length)
-plt.show()
+# a string is enclosed by quotes: '' or ""
+mystring = 'Hello world'
+print(mystring)
 
-#plot a boxplot
-sns.boxplot(iris.species, iris.petal_length)
-plt.show()
+#a list is enclosed by squearebrackets: [ ]
+mylist = ['Hello', 'world']
+
 ```
 
 ---
