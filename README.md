@@ -7,6 +7,7 @@
 * Python (basic)
 * Pandas (basic)
 * Input/Output IO in python (basic)
+	* E.g., read/write text or csv files
 * Loop in python (basic)
 * Jupyter notebook (basic)
 
