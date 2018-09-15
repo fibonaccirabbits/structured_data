@@ -72,14 +72,16 @@ print(mystring)
 mystring1 = mystring[1]
 print(mystring1)
 print(mystring)
-
+```
 ---
+```
 mylist = ['Hello', 'world']
 print(mylist)
 mylist1 = mylist[1]
 print(mylist1)
-
+```
 ---
+```
 # a slicing operation is enclosed by squere brackets: []
 # the start and end index is separated by a colon
 # the terminal index is exluded
