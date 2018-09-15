@@ -6,8 +6,8 @@
 
 * Python (basic)
 * Pandas (basic)
-* Matplotlib (basic)
-* Seaborn (basic)
+* Input/Output IO in python (basic)
+* Loop in python (basic)
 * Jupyter notebook (basic)
 
 **OS setup**
